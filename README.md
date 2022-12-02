@@ -13,3 +13,7 @@ Such a tree lives in a type `t`, and this library can encode such a tree into a 
 # Rlp.(display (decode (Rope.of_string "\196\130aa\192")));;
 - : string = "[\"aa\", []]"
 ```
+
+# Build
+
+Run `dune exec ./setup.exe`
